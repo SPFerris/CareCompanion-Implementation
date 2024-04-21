@@ -1,38 +1,122 @@
-.App {
+/* Font */
+.app {
+  font-family: "Roboto", sans-serif;
+}
+
+/* Header */
+.appHeader {
+  background-color: #333;
+  padding: 20px;
+}
+
+/* Navbar */
+.navBar ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navBar li {
+  margin: 0 20px;
+}
+
+.navBar a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Hero */
+.hero {
+  background-image: url("./media/CareCompanion.png");
+  background-size: cover;
+  height: 75vh;
+  background-position: center;
+  color: white;
+  padding: 20px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Call to action button */
+.callToAction {
+  background-color: #333;
+  border-radius: 50px;
+  color: white;
+  display: inline-block;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 20px;
+  margin-top: 45vb;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.callToAction a {
+    color: white;
+    text-decoration: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Graphics */
+.graphics {
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+}
+
+.item {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  margin: 40px;
+  padding: 50px;
+  text-align: center;
+}
+
+.item img {
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+/* Information */
+.information {
+  background-color: lightsalmon;
+  display: flex;
+  text-align: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 100px;
+}
+
+/* ChatBot */
+.chatBotSection {
+  background-color: white;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.chatBotContainer {
+  background-color: #333;
   color: white;
+  padding: 40px;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
-.App-link {
-  color: #61dafb;
+.chatBotWindow {
+  height: 500px;
+  overflow: hidden;
+  margin-bottom: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Video Carousel */
+.videoCarousel {
+  background-color: lightsalmon;
+  padding: 40px;
 }
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
